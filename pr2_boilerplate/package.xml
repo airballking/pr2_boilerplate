@@ -15,5 +15,9 @@
   <buildtool_depend>catkin</buildtool_depend>
   <depend>rospy</depend>
   <depend>visualization_msgs</depend>
+  <depend>joint_trajectory_msgs</depend>
+  <depend>joint_trajectory_controller</depend>
   <depend>pr2_description</depend>
+  <depend>joint_state_controller</depend>
+  <depend>ros_control_boilerplate</depend>
 </package>
