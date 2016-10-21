@@ -9,4 +9,7 @@
   <node pkg="controller_manager" type="spawner" name="controller_spawner"
         output="screen" args="joint_state_controller r_arm_controller" />
 
+  <node pkg="robot_state_publisher" type="robot_state_publisher"
+        name="robot_state_publisher" />
+
 </launch>
